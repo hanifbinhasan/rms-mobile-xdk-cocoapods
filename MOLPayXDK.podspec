@@ -42,5 +42,7 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   # s.resource = 'MOLPayXDK.bundle'
   s.vendored_frameworks = 'MOLPayXDK.framework'
+  s.deprecated = true
+  s.deprecated_in_favor_of = 'fiuu-mobile-xdk-cocoapods'
   
 end
